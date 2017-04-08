@@ -7,7 +7,7 @@ function makeLower(str){
 
 var result = printOut("TOM", makeLower);
 
-var result2 = printOut("tim",function(x){
-  return x.toUpperCase(x);
+var result2 = printOut("timothy",function(x){
+  return x.toUpperCase(x).substring(0,3);
 });
 console.log(result2);
